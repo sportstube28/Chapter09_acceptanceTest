@@ -34,7 +34,7 @@ public class StepDefinitions {
         assertEquals(expectedResult, result);
     }
 
-    ###For Div
+    // For Div
     @Given("^I have dividend and divisor: (.*) and (.*)$")
     public void i_have_two_numbers(String a, String b) throws Throwable {
         this.a = a;
